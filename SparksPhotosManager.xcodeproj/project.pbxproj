@@ -8,27 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		2122CC5B280FDAD200F14E1C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2122CC5A280FDAD200F14E1C /* AppDelegate.m */; };
-		2122CC5E280FDAD200F14E1C /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2122CC5D280FDAD200F14E1C /* SceneDelegate.m */; };
-		2122CC61280FDAD200F14E1C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2122CC60280FDAD200F14E1C /* ViewController.m */; };
 		2122CC64280FDAD200F14E1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2122CC62280FDAD200F14E1C /* Main.storyboard */; };
 		2122CC66280FDAD300F14E1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2122CC65280FDAD300F14E1C /* Assets.xcassets */; };
 		2122CC69280FDAD300F14E1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2122CC67280FDAD300F14E1C /* LaunchScreen.storyboard */; };
 		2122CC6C280FDAD300F14E1C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2122CC6B280FDAD300F14E1C /* main.m */; };
+		2122CC7B280FDAF600F14E1C /* SPPhotoTailoringManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2122CC73280FDAF600F14E1C /* SPPhotoTailoringManager.m */; };
+		2122CC7C280FDAF600F14E1C /* SPPhotoMaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2122CC75280FDAF600F14E1C /* SPPhotoMaskView.m */; };
+		2122CC7D280FDAF600F14E1C /* SPPhotoTailoringViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2122CC76280FDAF600F14E1C /* SPPhotoTailoringViewController.m */; };
+		2122CC7E280FDAF600F14E1C /* UIImage+Crop.m in Sources */ = {isa = PBXBuildFile; fileRef = 2122CC78280FDAF600F14E1C /* UIImage+Crop.m */; };
+		2122CC81280FDC9200F14E1C /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2122CC80280FDC9200F14E1C /* RootViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2122CC56280FDAD200F14E1C /* SparksPhotosManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SparksPhotosManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2122CC59280FDAD200F14E1C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2122CC5A280FDAD200F14E1C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2122CC5C280FDAD200F14E1C /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		2122CC5D280FDAD200F14E1C /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		2122CC5F280FDAD200F14E1C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2122CC60280FDAD200F14E1C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		2122CC63280FDAD200F14E1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2122CC65280FDAD300F14E1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2122CC68280FDAD300F14E1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2122CC6A280FDAD300F14E1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2122CC6B280FDAD300F14E1C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2122CC73280FDAF600F14E1C /* SPPhotoTailoringManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPPhotoTailoringManager.m; sourceTree = "<group>"; };
+		2122CC74280FDAF600F14E1C /* UIImage+Crop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Crop.h"; sourceTree = "<group>"; };
+		2122CC75280FDAF600F14E1C /* SPPhotoMaskView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPPhotoMaskView.m; sourceTree = "<group>"; };
+		2122CC76280FDAF600F14E1C /* SPPhotoTailoringViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPPhotoTailoringViewController.m; sourceTree = "<group>"; };
+		2122CC77280FDAF600F14E1C /* SPPhotoMaskView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPPhotoMaskView.h; sourceTree = "<group>"; };
+		2122CC78280FDAF600F14E1C /* UIImage+Crop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Crop.m"; sourceTree = "<group>"; };
+		2122CC79280FDAF600F14E1C /* SPPhotoTailoringManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPPhotoTailoringManager.h; sourceTree = "<group>"; };
+		2122CC7A280FDAF600F14E1C /* SPPhotoTailoringViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPPhotoTailoringViewController.h; sourceTree = "<group>"; };
+		2122CC7F280FDC9200F14E1C /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		2122CC80280FDC9200F14E1C /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,12 +70,11 @@
 		2122CC58280FDAD200F14E1C /* SparksPhotosManager */ = {
 			isa = PBXGroup;
 			children = (
+				2122CC72280FDAF600F14E1C /* SparkPhotoTailoringView */,
 				2122CC59280FDAD200F14E1C /* AppDelegate.h */,
 				2122CC5A280FDAD200F14E1C /* AppDelegate.m */,
-				2122CC5C280FDAD200F14E1C /* SceneDelegate.h */,
-				2122CC5D280FDAD200F14E1C /* SceneDelegate.m */,
-				2122CC5F280FDAD200F14E1C /* ViewController.h */,
-				2122CC60280FDAD200F14E1C /* ViewController.m */,
+				2122CC7F280FDC9200F14E1C /* RootViewController.h */,
+				2122CC80280FDC9200F14E1C /* RootViewController.m */,
 				2122CC62280FDAD200F14E1C /* Main.storyboard */,
 				2122CC65280FDAD300F14E1C /* Assets.xcassets */,
 				2122CC67280FDAD300F14E1C /* LaunchScreen.storyboard */,
@@ -74,6 +82,21 @@
 				2122CC6B280FDAD300F14E1C /* main.m */,
 			);
 			path = SparksPhotosManager;
+			sourceTree = "<group>";
+		};
+		2122CC72280FDAF600F14E1C /* SparkPhotoTailoringView */ = {
+			isa = PBXGroup;
+			children = (
+				2122CC7A280FDAF600F14E1C /* SPPhotoTailoringViewController.h */,
+				2122CC76280FDAF600F14E1C /* SPPhotoTailoringViewController.m */,
+				2122CC79280FDAF600F14E1C /* SPPhotoTailoringManager.h */,
+				2122CC73280FDAF600F14E1C /* SPPhotoTailoringManager.m */,
+				2122CC77280FDAF600F14E1C /* SPPhotoMaskView.h */,
+				2122CC75280FDAF600F14E1C /* SPPhotoMaskView.m */,
+				2122CC74280FDAF600F14E1C /* UIImage+Crop.h */,
+				2122CC78280FDAF600F14E1C /* UIImage+Crop.m */,
+			);
+			path = SparkPhotoTailoringView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,10 +169,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2122CC61280FDAD200F14E1C /* ViewController.m in Sources */,
+				2122CC7E280FDAF600F14E1C /* UIImage+Crop.m in Sources */,
+				2122CC81280FDC9200F14E1C /* RootViewController.m in Sources */,
+				2122CC7C280FDAF600F14E1C /* SPPhotoMaskView.m in Sources */,
+				2122CC7D280FDAF600F14E1C /* SPPhotoTailoringViewController.m in Sources */,
 				2122CC5B280FDAD200F14E1C /* AppDelegate.m in Sources */,
 				2122CC6C280FDAD300F14E1C /* main.m in Sources */,
-				2122CC5E280FDAD200F14E1C /* SceneDelegate.m in Sources */,
+				2122CC7B280FDAF600F14E1C /* SPPhotoTailoringManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +320,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SparksPhotosManager/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -320,6 +348,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SparksPhotosManager/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
